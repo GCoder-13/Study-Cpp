@@ -7,28 +7,32 @@
 #include <conio.h>
 
 enum etype;
-
-class employee
-{
-private:
-	int num;
-	float money;
-	etype work;
-	date DD;
-public:
-	employee();
-	employee(int n, float m);
-	void get();
-	void show() const;
-};
+void getWork(etype& w);
+void showWork(const etype w);
 
 class date
 {
 private:
 	int day, month, year;
 public:
+	date();
+	date(int d, int m, int y);
 	void getdate();
 	void showdate() const;
+};
+
+class employee
+{
+private:
+	int num;
+	float money;
+	date DD;
+	etype work;
+public:
+	employee();
+	employee(int n, float m, date d, etype w);
+	void getEmploy();
+	void putEmploy() const;
 };
 
 #endif // !_HEADER_H_
