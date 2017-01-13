@@ -15,6 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Проект4", "Проек
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enum etype", "enum etype\enum etype.vcxproj", "{62597910-A66E-4561-92E2-8D90FFFAC8BE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D1AB9EA-03D4-4583-94C8-9D38A6E3BE21}"
+	ProjectSection(SolutionItems) = preProject
+		Help.cpp = Help.cpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
