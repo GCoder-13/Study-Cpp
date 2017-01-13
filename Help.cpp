@@ -3,6 +3,13 @@ cout << setiosflags(ios::fixed) // нормальный неэкспоненциальный вид
 << setprecision(2) // два знака после запятой 
 << setw(10); // ширина вывода в 10 символов 
 
+int main() {
+	const int MAX = 20; // максимальный размер строки
+	char str[MAX]; // сама строка
+	cout << "\nВведите строку: "; 
+		cin >> setw(MAX) >> str; // ввод не более чем MAX символов cout << "Вы ввели: " << str << endl; return 0;
+}
+
 int main()
 {
 	string s1("Все хорошо, прекрасная маркиза.");
