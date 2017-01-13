@@ -12,7 +12,10 @@ private:
 	std::string name;
 	long num;
 public:
-
+	employee();
+	employee(std::string, long);
+	void getdata();
+	void putdata() const;
 };
 
 #endif // !_HEADER_H_
