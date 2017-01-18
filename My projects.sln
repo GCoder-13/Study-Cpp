@@ -26,6 +26,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Проект6", "Проек
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transform name", "Transform name\Transform name.vcxproj", "{8F4486FB-ABA3-416C-BFF9-E026BCFA2F41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 6", "Lab 6\Lab 6.vcxproj", "{2564650E-CA72-4762-9160-2849E062D296}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -106,6 +108,14 @@ Global
 		{8F4486FB-ABA3-416C-BFF9-E026BCFA2F41}.Release|x64.Build.0 = Release|x64
 		{8F4486FB-ABA3-416C-BFF9-E026BCFA2F41}.Release|x86.ActiveCfg = Release|Win32
 		{8F4486FB-ABA3-416C-BFF9-E026BCFA2F41}.Release|x86.Build.0 = Release|Win32
+		{2564650E-CA72-4762-9160-2849E062D296}.Debug|x64.ActiveCfg = Debug|x64
+		{2564650E-CA72-4762-9160-2849E062D296}.Debug|x64.Build.0 = Debug|x64
+		{2564650E-CA72-4762-9160-2849E062D296}.Debug|x86.ActiveCfg = Debug|Win32
+		{2564650E-CA72-4762-9160-2849E062D296}.Debug|x86.Build.0 = Debug|Win32
+		{2564650E-CA72-4762-9160-2849E062D296}.Release|x64.ActiveCfg = Release|x64
+		{2564650E-CA72-4762-9160-2849E062D296}.Release|x64.Build.0 = Release|x64
+		{2564650E-CA72-4762-9160-2849E062D296}.Release|x86.ActiveCfg = Release|Win32
+		{2564650E-CA72-4762-9160-2849E062D296}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
